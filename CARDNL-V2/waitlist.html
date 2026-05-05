@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CARDNL Waitlist</title>
+    <link rel="preconnect" href="https://api.fontshare.com" />
+    <link rel="preconnect" href="https://cdn.fontshare.com" crossorigin />
+    <link href="https://api.fontshare.com/v2/css?f[]=panchang@500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <canvas id="shader-bg" aria-hidden="true"></canvas>
+    <div class="grain" aria-hidden="true"></div>
+
+    <main class="page-shell">
+      <nav class="topbar" aria-label="CARDNL navigation">
+        <a class="brand" href="index.html" aria-label="CARDNL home">CARDNL</a>
+        <div class="socials">
+          <a href="https://x.com/usecardnl" aria-label="Follow CARDNL on X">X</a>
+          <a href="https://instagram.com/usecardnl" aria-label="Follow CARDNL on Instagram">Instagram</a>
+        </div>
+      </nav>
+
+      <section class="hero" aria-labelledby="waitlist-title">
+        <p class="status"></p>
+        <h1 id="waitlist-title">Join CARDNL</h1>
+        <p class="intro">
+          Sign up to secure early access, launch updates, and exclusive rewards built for your next getaway.
+        </p>
+        <div class="waitlist-form">
+          <form action="#" method="post">
+            <label>
+              Name
+              <input type="text" name="name" placeholder="Your name" required />
+            </label>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="you@example.com" required />
+            </label>
+            <label>
+              Travel goal
+              <input type="text" name="goal" placeholder="Weekend escape, next big trip, etc." />
+            </label>
+            <button type="submit">Join the waitlist</button>
+          </form>
+        </div>
+      </section>
+
+      <footer class="page-footer">
+        <div class="footer-mini">
+          
+        </div>
+        <div class="footer-contact">
+          <div>
+            <p>Contact us</p>
+            <a href="mailto:cardnl@zohomail.in">cardnl@zohomail.in</a>
+          </div>
+          <p class="copyright">CARDNL © 2026 CARDNL. All rights reserved. Precision yields ahead.</p>
+        </div>
+      </footer>
+    </main>
+
+    <script src="./shader.js"></script>
+  </body>
+</html>
